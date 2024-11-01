@@ -1,0 +1,214 @@
+# WordPress - bbPress syncronization plugin.
+# Copyright (C) Ivan Babrou
+# This file is distributed under the same license as the wordpress-bbpress syncronization package.
+#
+# Ivan Babrou <ibobrik@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: wordpress-bbpress-syncronization-be_BY\n"
+"Report-Msgid-Bugs-To: ibobrik@gmail.com\n"
+"POT-Creation-Date: 2009-07-22 16:09+0300\n"
+"PO-Revision-Date: 2009-07-22 17:14+0300\n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: wpbb-sync.php:475 wpbb-sync.php:628 wpbb-sync.php:849 wpbb-sync.php:872
+msgid "Everything is ok!"
+msgstr "Усё ў парадку!"
+
+#: wpbb-sync.php:477
+msgid "Cannot establish connection to bbPress part"
+msgstr "Немагчыма ўсталяваць злучэнне з bbPress складнікам"
+
+#: wpbb-sync.php:479
+msgid "Invalid secret key"
+msgstr "Няслушны сакрэтны ключ"
+
+#: wpbb-sync.php:481
+msgid "Too old bbPress part plugin version"
+msgstr "Занадта старая версія bbPress складніка"
+
+#: wpbb-sync.php:804 wpbb-sync.php:831 wpbb-sync.php:967
+msgid "bbPress syncronization"
+msgstr "Сінхранізацыя з bbPress"
+
+#: wpbb-sync.php:837
+msgid "bbPress url"
+msgstr "Адрас bbPress"
+
+#: wpbb-sync.php:844
+msgid ""
+"bbPress url (we'll add <em>my-plugins/wordpress-bbpress-syncronization/bbwp-"
+"sync.php</em> to your url)"
+msgstr ""
+"Адрас bbPress (мы аўтаматычна дадамо <em>my-plugins/wordpress-bbpress-"
+"syncronization/bbwp-sync.php</em> у яго канец)"
+
+#: wpbb-sync.php:852
+msgid "URL is incorrect or connection error, please verify it (full variant): "
+msgstr "Адрас няслушны або памылка злучэння, праверце адрас (поўны варыянт): "
+
+#: wpbb-sync.php:861
+msgid "Secret key"
+msgstr "Сакрэтны ключ"
+
+#: wpbb-sync.php:867
+msgid "We need it for secure communication between your systems"
+msgstr "Ключ неабходны для бяспечнай сувязі паміж часткамі сістэмы"
+
+#: wpbb-sync.php:875
+msgid "Error! Not equal secret keys in WordPress and bbPress"
+msgstr "Памылка! Розныя сакрэтныя ключы ў WordPress і bbPress"
+
+#: wpbb-sync.php:882
+msgid "Sync comments by default"
+msgstr "Сінхранізаваць каментары па змаўчанні"
+
+#: wpbb-sync.php:884
+msgid "Also will be used for posts without any sync option value"
+msgstr ""
+"Таксама будзе выкарыстоўвацца для пастоў без усталяванай опцыі сінхранізацыі"
+
+#: wpbb-sync.php:888
+msgid "Create topic on posting"
+msgstr "Ствараць тэму ў форуме пры публікацыі"
+
+#: wpbb-sync.php:890
+msgid "Will create topic in bbPress after WordPress post publishing"
+msgstr "Будзе ствараць тэму ў bbPress пасля публікацыі ў WordPress"
+
+#: wpbb-sync.php:894
+msgid "Sync all comments"
+msgstr "Сінхранізаваць усе каментары"
+
+#: wpbb-sync.php:896
+msgid ""
+"Sync comment even if not approved. Comment will have the same status at forum"
+msgstr ""
+"Сінхранізаваць каментар, нават калі ён не ўхвалены. Каментар будзе мець той "
+"жа статут на форуме"
+
+#: wpbb-sync.php:900
+msgid "Create topic anyway"
+msgstr "Стварыць тэму ў любым выпадку"
+
+#: wpbb-sync.php:902
+msgid ""
+"Create topic even if comment not approved. Will create topic "
+"<strong>without</strong> unapproved comment, only first post"
+msgstr ""
+"Ствараць тэму на форуме, нават калі каментар не ўхвалены. Будзе створаная "
+"тэма <strong>без</strong> няўсхваленага каментара, толькі з першым пастом"
+
+#: wpbb-sync.php:906
+msgid "First post type"
+msgstr "Тып першага паста"
+
+#: wpbb-sync.php:909
+msgid "Full post"
+msgstr "Поўны тэкст"
+
+#: wpbb-sync.php:910
+msgid "Post before &lt;!--more--&gt; tag"
+msgstr "Тэкст да тэга &lt;!--more--&gt;"
+
+#: wpbb-sync.php:911
+msgid "Excerpt"
+msgstr "Цытата (Excerpt)"
+
+#: wpbb-sync.php:912
+msgid "Select what text for the first post will be displayed in forum topic"
+msgstr "Выберыце, які тэкст будзе выкарыстоўвацца для першага паста на форуме"
+
+#: wpbb-sync.php:916
+msgid "Enable quoting"
+msgstr "Уключыць цытаванне"
+
+#: wpbb-sync.php:918
+msgid "If enabled, first post summary in bbPress will be blockquoted"
+msgstr "Калі ўключана, першы пост у bbPress будзе аформлены як цытата"
+
+#: wpbb-sync.php:922
+msgid "Amount of comments to show"
+msgstr "Колькасць каментароў для адлюстравання"
+
+#: wpbb-sync.php:924
+msgid "Set to <em>-1</em> to show all comments"
+msgstr "Выстаўце ў <em>-1</em> для адлюстравання ўсіх каментароў"
+
+#: wpbb-sync.php:928
+msgid "Point to forum in latest comment"
+msgstr "Спасылацца на форум у апошнім каментары"
+
+#: wpbb-sync.php:930
+msgid ""
+"If enabled, last comment will have link to forum discussion. Don't set "
+"previous option to 0 to use that. It is better to use template functions"
+msgstr ""
+"Калі ўключана, апошні каментар будзе мець спасылку на дыскусію на форуме. Не "
+"ўсталёўвайце папярэднюю опцыю ў 0 для выкарыстання гэтага. Лепш карыстацца "
+"template functions"
+
+#: wpbb-sync.php:934
+msgid "Max comments with form"
+msgstr "Максімум каментароў з формай"
+
+#: wpbb-sync.php:936
+msgid "Set to <em>-1</em> to show new comment form with any comments count"
+msgstr ""
+"Выстаўце ў <em>-1</em> для адлюстравання формы для каментароў у любым выпадку"
+
+#: wpbb-sync.php:940
+msgid "PingBacks & Trackbacks"
+msgstr ""
+
+#: wpbb-sync.php:943
+msgid "Disable"
+msgstr "Адключыць"
+
+#: wpbb-sync.php:944
+msgid "Show site url as username"
+msgstr "Выкарыстоўваць URL як імя карыстача"
+
+#: wpbb-sync.php:946
+msgid "Select what to do with pings. URLs will be shorten to domain name"
+msgstr "Выберыце, што рабіць з пінгамі. URL будзе скарочаны да дамена"
+
+#: wpbb-sync.php:950
+msgid "Enable plugin"
+msgstr "Уключыць убудову"
+
+#: wpbb-sync.php:952
+msgid "Allowed by both parts"
+msgstr "Дазволена абедзвюма складнікамі"
+
+#: wpbb-sync.php:952
+msgid "Not allowed: "
+msgstr "Не дазволена: "
+
+#: wpbb-sync.php:957
+msgid "Save Changes"
+msgstr "Захаваць змены"
+
+#: wpbb-sync.php:967
+msgid "Syncronize post comments with bbPress?"
+msgstr "Сінхранізаваць каментары з bbPress?"
+
+#: wpbb-sync.php:1018
+msgid "Please continue discussion on the forum: "
+msgstr "Працяг дыскусіі на форуме: "
+
+#: wpbb-sync.php:1088
+msgid "Synchronization with bbPress is not enabled."
+msgstr "Сінхранізацыя з bbPress не ўключана."
+
+#: wpbb-sync.php:1088
+msgid ""
+"You must <a href=\"%1$s\">check options and enable plugin</a> to make it "
+"work."
+msgstr "Вы павінны <a href=\"%1$s\">праверыць наладкі і ўключыць плягін</a>, "
+"каб ён пачаў працаваць."
